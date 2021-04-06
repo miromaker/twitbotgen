@@ -9,10 +9,10 @@ const params = {
 }
 
 const favParams = {
-    q: '#generativeart OR #smartgrid filter:media',
+    q: '#generativeart OR #plottertwitter filter:media',
     count: 100,
     lang: 'en'
-}
+} // Testing the thesis that liking affinity messages increases followers/interest area connections. 
 
 // tweetBot.get('search/tweets', params,  (err, data, res) => {
 //     if(!err){
