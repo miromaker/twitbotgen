@@ -10,7 +10,7 @@ const params = {
 
 const favParams = {
     q: '#generativeart  filter:media',
-    count: 1,
+    count: 25,
     lang: 'en'
 }
 
