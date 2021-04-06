@@ -1,0 +1,16 @@
+{
+  "name": "tweetbotgen",
+  "version": "1.0.0",
+  "description": "retweet generative art posts every 3 hours",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test",
+    "start": "node bot.js"
+  },
+  "author": "Miroslav Lysyuk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  }
+}
