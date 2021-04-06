@@ -9,8 +9,8 @@ const params = {
 }
 
 const favParams = {
-    q: '#generativeart  filter:media',
-    count: 25,
+    q: '#generativeart OR #smartgrid filter:media',
+    count: 100,
     lang: 'en'
 }
 
