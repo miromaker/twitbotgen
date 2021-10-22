@@ -2,15 +2,15 @@ const Twit = require('twit');
 const config = require('./config.js');
 const tweetBot = new Twit(config);
 
-const params = {
-    q: '#generativeart  filter:media',
-    count: 1,
-    lang: 'en'
-}
+// const params = {
+//     q: '#energytwitter OR #microgrids  filter:media',
+//     count: 1,
+//     lang: 'en'
+// }
 
 const favParams = {
-    q: '#generativeart OR #plottertwitter filter:media',
-    count: 100,
+    q: '#energytwitter OR #microgrids filter:media',
+    count: 20,
     lang: 'en'
 } // Testing the thesis that liking affinity messages increases followers/interest area connections. 
 
